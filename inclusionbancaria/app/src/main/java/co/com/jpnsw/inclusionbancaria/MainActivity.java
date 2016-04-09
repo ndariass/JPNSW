@@ -39,7 +39,8 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
 
         myWebView = (WebView) findViewById(R.id.activity_main_webview);
-        myWebView.loadUrl("http://test.sites.dipaola.com.co/jpnsw/");
+        myWebView.loadUrl("http://192.168.0.16/JPNSW/WebAPP/");
+        //myWebView.loadUrl("http://test.sites.dipaola.com.co/jpnsw/");
 
         // Enable Javascript
         WebSettings webSettings = myWebView.getSettings();
