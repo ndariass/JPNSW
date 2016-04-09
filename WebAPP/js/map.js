@@ -1,10 +1,37 @@
 var map;
 var markers;
+var latitude, longitude;
+
+function getLocation() {
+    navigator.geolocation.getCurrentPosition(displayLocation, handleError);
+}
+
+function displayLocation(position){
+    //showAndroidToast(position.coords.latitude + ", " + position.coords.longitude, position.coords.longitude);
+    latitude = position.coords.latitude;
+    longitude = position.coords.longitude;
+
+    initMap();
+}
+
+function handleError(e){
+    initMap();
+}
+
 function initMap() {
-    map = new google.maps.Map(document.getElementById('map'), {
-        center: {lat: 4.6515167, lng: -74.0594862},
-        zoom: 16,
-    });
+
+    if (latitude && longitude){
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: latitude, lng: longitude},
+            zoom: 16,
+        });
+    }
+    else {
+        map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 4.6515167, lng: -74.0594862},
+            zoom: 16,
+        });
+    }
 
     markers = new Array(BANKS.length);
 

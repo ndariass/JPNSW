@@ -70,12 +70,6 @@
     </div>
   </div>
 
-  
-<!--
-<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
-<input type="button" value="GetLocation" onClick="window.open('map.html')" />
-  -->
-
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
@@ -90,7 +84,7 @@
     }
 
     function displayLocation(position){
-          showAndroidToast(position.coords.latitude, position.coords.longitude);
+          showAndroidToast(position.coords.latitude + ", " + position.coords.longitude, position.coords.longitude);
 
     }
 
