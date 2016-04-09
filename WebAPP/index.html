@@ -71,11 +71,32 @@
   </div>
 
   
-
+<input type="button" value="Say hello" onClick="showAndroidToast('Hello Android!')" />
+<input type="button" value="GetLocation" onClick="getLocation()" />
   
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
   <script src="js/init.js"></script>
+
+  <script type="text/javascript">
+    function showAndroidToast(toast) {
+        Android.showToast(toast);
+    }
+
+    function getLocation() {
+        navigator.geolocation.getCurrentPosition(displayLocation, handleError);
+    }
+
+    function displayLocation(position){
+          showAndroidToast(position.coords.latitude, position.coords.longitude);
+
+    }
+
+    function handleError(e){
+          showAndroidToast(e);
+    }
+
+</script>
 </body>
 </html>
