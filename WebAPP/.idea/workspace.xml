@@ -22,21 +22,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="preguntas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/preguntas.html">
+      <file leaf-file-name="map.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/map.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-6.125">
-              <caret line="180" column="6" selection-start-line="0" selection-start-column="0" selection-end-line="191" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="que_buscas.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/que_buscas.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="80" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,16 +62,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultado_seguros.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultado_seguros.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.125">
-              <caret line="67" column="25" selection-start-line="67" selection-start-column="25" selection-end-line="67" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="preguntas_casita.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/preguntas_casita.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -95,8 +75,8 @@
       <file leaf-file-name="resultado_preguntas.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resultado_preguntas.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.125">
-              <caret line="61" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="7" />
+            <state vertical-scroll-proportion="-12.416667">
+              <caret line="49" column="32" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -105,20 +85,44 @@
       <file leaf-file-name="resultados_casita.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resultados_casita.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.6538463">
-              <caret line="20" column="40" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="40" />
+            <state vertical-scroll-proportion="-4.9038463">
+              <caret line="63" column="127" selection-start-line="63" selection-start-column="127" selection-end-line="63" selection-end-column="127" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#h2#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="foro.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mapCredit.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/mapCredit.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.3376206">
+              <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.291667">
+              <caret line="42" column="65" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="65" />
+              <folding>
+                <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/foro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47610295">
-              <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
+            <state vertical-scroll-proportion="0.33333334">
+              <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -131,8 +135,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -163,8 +167,9 @@
         <option value="$PROJECT_DIR$/prguntas_casita.html" />
         <option value="$PROJECT_DIR$/que_buscas_2.html" />
         <option value="$PROJECT_DIR$/preguntas_casita.html" />
-        <option value="$PROJECT_DIR$/resultados_casita.html" />
         <option value="$PROJECT_DIR$/foro.html" />
+        <option value="$PROJECT_DIR$/resultados_casita.html" />
+        <option value="$PROJECT_DIR$/js/mapCredit.js" />
       </list>
     </option>
   </component>
@@ -390,14 +395,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resultado_preguntas.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/login.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -443,7 +440,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
           <folding>
-            <marker date="1460309452085" expanded="true" signature="2465:2615" placeholder="..." />
+            <marker date="1460317361746" expanded="true" signature="2562:2712" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -524,7 +521,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <marker date="1460309452085" expanded="true" signature="2465:2615" placeholder="..." />
+            <marker date="1460317361746" expanded="true" signature="2562:2712" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -566,7 +563,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
           <folding>
-            <marker date="1460309452085" expanded="true" signature="2465:2615" placeholder="..." />
+            <marker date="1460317361746" expanded="true" signature="2562:2712" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -614,7 +611,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
           <folding>
-            <marker date="1460309452085" expanded="true" signature="2465:2615" placeholder="..." />
+            <marker date="1460317361746" expanded="true" signature="2562:2712" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -684,18 +681,7 @@
         <state vertical-scroll-proportion="-23.5">
           <caret line="74" column="125" selection-start-line="74" selection-start-column="125" selection-end-line="74" selection-end-column="125" />
           <folding>
-            <marker date="1460309452085" expanded="true" signature="2465:2615" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/map.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.875">
-          <caret line="42" column="65" selection-start-line="42" selection-start-column="65" selection-end-line="42" selection-end-column="65" />
-          <folding>
-            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1460317361746" expanded="true" signature="2562:2712" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -715,14 +701,6 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/map.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-40.464287">
-          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -774,6 +752,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/foro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="119" column="9" selection-start-line="119" selection-start-column="9" selection-end-line="119" selection-end-column="9" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultado_preguntas.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.416667">
+          <caret line="49" column="32" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/map.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.291667">
+          <caret line="42" column="65" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="65" />
+          <folding>
+            <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/preguntas_casita.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.375">
@@ -782,31 +789,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resultado_preguntas.html">
+    <entry file="file://$PROJECT_DIR$/js/map.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.125">
-          <caret line="61" column="10" selection-start-line="0" selection-start-column="0" selection-end-line="72" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="80" column="29" selection-start-line="0" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resultados_casita.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.6538463">
-          <caret line="20" column="40" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="40" />
+        <state vertical-scroll-proportion="-4.9038463">
+          <caret line="63" column="127" selection-start-line="63" selection-start-column="127" selection-end-line="63" selection-end-column="127" />
           <folding>
             <element signature="n#style#0;n#img#0;n#h2#0;n#div#0;n#a#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/foro.html">
+    <entry file="file://$PROJECT_DIR$/js/mapCredit.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47610295">
-          <caret line="122" column="18" selection-start-line="122" selection-start-column="18" selection-end-line="122" selection-end-column="18" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.3376206">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
