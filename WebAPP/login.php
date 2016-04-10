@@ -1,3 +1,27 @@
+<?php
+
+$session_name;
+
+if(isset($_POST['actionSubmit'])) {
+    if (($_POST["name"] == "Nicolas" && $_POST["id"] == 1) ||
+        ($_POST["name"] == "Pedro" && $_POST["id"] == 2) ||
+        ($_POST["name"] == "Jose" && $_POST["id"] == 3) ||
+        ($_POST["name"] == "Juan" && $_POST["id"] == 4)
+        || ($_POST["name"] == "Walter" && $_POST["id"] == 5)
+    ) {
+        $session_name = $_POST["name"];
+        header('Location: index.php');
+
+    } else {
+
+
+        ?>
+        <script type='text/javascript'>alert('Usuario no valido');</script>
+        <?php
+    }
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -15,20 +39,7 @@
 </head>
 
 <body>
-<!--
-  <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="#">¿Qué buscas compa?</a></li>
-      </ul>
 
-      <ul id="nav-mobile" class="side-nav">
-        <li><a href="/">¿Qué buscas compa<</a></li>
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
-  -->
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <br><br>
@@ -38,17 +49,17 @@
 </div>
 <div class="container">
     <div class="row">
-        <form method="post" action="<?=$_SERVER['PHP_SELF']?>">
+        <form method="post" action=>
             <div class="col s12 m4">
                 <label>Tu nombre:</label>
-                <input type="text" value=""></input>
+                <input type="text" value="" name="name"></input>
             </div>
             <div class="col s12 m4">
                 <label>Tu cedula:</label>
-                <input type="text" value=""></input>
+                <input type="text" value="" name="id"></input>
             </div>
 
-            <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+            <button class="btn waves-effect waves-light" type="submit" name="actionSubmit">Submit
                 <i class="material-icons right">send</i>
             </button>
         </form>
