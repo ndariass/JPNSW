@@ -72,7 +72,7 @@
       <div class="col s12 m4">
         <a class="black-text" href="login.php">
           <div class="icon-block">
-            <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/comerciantes-ICONO.png" alt="negociante"/></h2>
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/coma_ya_estas_en_lista_ICONO.png" alt="negociante"/></h2>
             <h5 class="center">¿Ya eres integrante?</h5>
 
             <p class="light">Estás registrado</p>

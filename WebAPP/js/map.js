@@ -41,13 +41,18 @@ function initMap() {
         zoom: 16,
     });
 
+    var icon = {
+        url: 'images/geo.png', // url
+        scaledSize: new google.maps.Size(30, 30), // scaled size
+        origin: new google.maps.Point(0,0), // origin
+        anchor: new google.maps.Point(0, 0) // anchor
+    };
+
+    //var image = 'images/geo.png';
     var currentPositionMarker = new google.maps.Marker({
         position: position,
         map: map,
-        icon: {
-            path: google.maps.SymbolPath.CIRCLE,
-            scale: 5
-        },
+        icon: icon,
     });
 
     markers = new Array(BANKS.length);
