@@ -15,18 +15,18 @@
 </head>
 
 <body>
-  <!--<nav class="light-blue lighten-1" role="navigation">
+    <nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">¿Cuál de mis compadres eres?</a></li>
+        <li><a href="index.php">Inicio</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="/">¿Cuál de mis compadres eres?<</a></li>
+        <li><a href="index.php">Inicio</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
-  </nav>-->
+  </nav>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
@@ -48,7 +48,7 @@
       </div>
 
       <div class="col s12 m4">
-      <a class="black-text" href="#!">
+      <a class="black-text" href="que_buscas.html">
         <div class="icon-block">
           <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/papas-ICONO.png" alt="negociante"/></h2>
           <h5 class="center">Familia de compas</h5>

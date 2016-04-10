@@ -15,25 +15,29 @@
 </head>
 
 <body>
-<!--
-  <nav class="light-blue lighten-1" role="navigation">
+<nav class="light-blue lighten-1" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">¿Qué buscas compa?</a></li>
+        <li><a href="index.php">Inicio</a></li>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="/">¿Qué buscas compa<</a></li>
+        <li><a href="index.php">Inicio</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  -->
-  <div class="section no-pad-bot" id="index-banner">
+  <h5 class="header center orange-text">¿Ya estas registrado?</h5>
+  <div class="row center">
+        <a href="login.php" id="download-button" class="btn-large waves-effect waves-light orange">Si</a>
+        <a href="#" onclick="$('#form').show();" id="download-button" class="btn-large waves-effect waves-light orange">No</a>
+      </div>
+  <div id="form" style="display: none;">
+  <div class="section no-pad-bot" id="index-banner" >
     <div class="container">
       <br><br>
       <h4 class="header center orange-text">!Compadrito!</h1>
-      <h5 class="header center orange-text">Te voy a molestar con unas pregunticas:</h4>
+      <h5 class="header center orange-text">Te voy a molestar con unas pregunticas:</h5>
     </div>
   </div>
   <div class="container">
@@ -54,11 +58,18 @@
         <label>Tu teléfono:</label>
         <input type="text" value=""></input>
       </div>
+      <div class="col s12 m4">
+        <label>Tu email:</label>
+        <input type="text" value=""></input>
+      </div>
     </div>
+     <div class="row">
+     <a href="index.php" onclick="Android.showToast('Usuario registrado');" class="btn-large waves-effect waves-light orange">Enviar</a>
+     </div>
   </div>
   
 
-  
+  </div>
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>

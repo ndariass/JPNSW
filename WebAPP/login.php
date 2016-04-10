@@ -16,7 +16,7 @@ if(isset($_POST['actionSubmit'])) {
 
 
         ?>
-        <script type='text/javascript'>alert('Usuario no valido');</script>
+        <script type='text/javascript'>Android.showToast('Usuario no valido');</script>
         <?php
     }
 }
