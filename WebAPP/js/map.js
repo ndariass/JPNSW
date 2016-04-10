@@ -18,38 +18,45 @@ function handleError(e){
     initMap();
 }
 
-function initMap() {
+function setPosition() {
+    var position;
 
-    if (latitude && longitude){
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: latitude, lng: longitude},
-            zoom: 16,
-        });
+    if (latitude && longitude) {
+        position = {lat: latitude, lng: longitude};
     }
     else {
-        map = new google.maps.Map(document.getElementById('map'), {
-            center: {lat: 4.6515167, lng: -74.0594862},
-            zoom: 16,
-        });
+        position = {lat: 4.6515167, lng: -74.0594862};
+
     }
+    return position;
+}
+function initMap() {
+
+    var position;
+
+    position = setPosition();
+
+    map = new google.maps.Map(document.getElementById('map'), {
+        center: position,
+        zoom: 16,
+    });
+
+    var currentPositionMarker = new google.maps.Marker({
+        position: position,
+        map: map,
+        icon: {
+            path: google.maps.SymbolPath.CIRCLE,
+            scale: 5
+        },
+    });
 
     markers = new Array(BANKS.length);
 
     for (var i = 0; i < BANKS.length; i++){
         setMarker(BANKS[i], i);
     }
-
-
-    for (var i = 0; i < BANKS.length; i++){
-        marker[i].addListener('click', function () {
-
-            for (var j = 0; j < BANKS.length; j++){
-                if (i != j)
-                    marker[j].close();
-            }
-        });
-    }
 }
+
 
 function setMarker(data, index){
     console.log(data.position);
@@ -59,8 +66,7 @@ function setMarker(data, index){
         title: 'Hello World!'
     });
 
-    var contentString = '<strong>' + data.name + '</strong> </br>';
-    var contentString = contentString + data.address;
+    var contentString = buildBankInformation(data);
 
     var infowindow = new google.maps.InfoWindow({
         content: contentString
@@ -70,3 +76,11 @@ function setMarker(data, index){
         infowindow.open(map, markers[index]);
     });
 }
+
+function buildBankInformation(data) {
+    var contentString = '<strong>' + data.name + '</strong> </br>';
+    var contentString = contentString + data.address;
+
+    return contentString;
+}
+
