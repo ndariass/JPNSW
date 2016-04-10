@@ -48,7 +48,7 @@
 
 <body>
 <nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Logo</a>
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="index.php">Inicio</a></li>
       </ul>
@@ -91,9 +91,16 @@
 <div id="pregunta" class="row" style="display: none;">
   <div class="col s12 m4">
     <textarea placeholder="!Cuentanos tu inquietud compadre!"></textarea>
-    <a href="#" class="btn-large waves-effect waves-light orange">Enviar</a>
+    <a href="#" onclick="$('#pregunta').hide();$('#pregunta_enviada').show();" class="btn-large waves-effect waves-light orange">Enviar</a>
   </div>
 </div>
+
+<div id="pregunta_enviada" class="row" style="display: none;">
+  <div class="col s12 m4">
+      <h3>!Gracias por enviar tu pregunta!</h3>
+  </div>
+</div>
+
 
 
 <div id="preguntas" class="row lista" style="display: none;">
