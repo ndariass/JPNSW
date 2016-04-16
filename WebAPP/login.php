@@ -1,6 +1,7 @@
 <?php
-
-$session_name;
+session_start();
+?>
+<?php
 
 if(isset($_POST['actionSubmit'])) {
     if (($_POST["name"] == "Nicolas" && $_POST["id"] == 1) ||
@@ -9,7 +10,7 @@ if(isset($_POST['actionSubmit'])) {
         ($_POST["name"] == "Juan" && $_POST["id"] == 4)
         || ($_POST["name"] == "Walter" && $_POST["id"] == 5)
     ) {
-        $session_name = $_POST["name"];
+        $_SESSION["newsession"]= $_POST["name"];
         header('Location: index.php');
 
     } else {

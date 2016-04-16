@@ -1,3 +1,11 @@
+<?php
+session_start();
+
+if( isset($_GET['logout'])){
+  $_SESSION["newsession"] = NULL;
+  session_unset();
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -20,19 +28,42 @@
       <ul class="right hide-on-med-and-down">
         <li><a href="index.php">Inicio</a></li>
         <li><a href="video.html">Video</a></li>
+        <?php
+        if ($_SESSION["newsession"]){
+          echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
+        }
+        ?>
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="index.php">Inicio</a></li>
          <li><a href="video.html">Video</a></li>
+        <?php
+        if ($_SESSION["newsession"]){
+          echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
+        }
+        ?>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <div class="section no-pad-bot" id="index-banner">
+
+    <div class="section no-pad-bot" id="index-banner">
+      <div class="container">
+
+        <?php
+        if ($_SESSION["newsession"]){
+          echo  "<h5 class=\"header right-align black-text\">" . "Hola " . $_SESSION["newsession"] . "</h5>";
+        }
+        ?>
+
+      </div>
+    </div>
+
+    <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h4 class="header center orange-text">¿Cuál de mis compadres eres?</h4>
+      <h4 class="header center orange-text">¿Cuál de mis compadres eres? </h4>
     </div>
   </div>
   <div class="container">
@@ -71,16 +102,25 @@
         </a>
       </div>
 
-      <div class="col s12 m4">
-        <a class="black-text" href="login.php">
-          <div class="icon-block">
-            <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/coma_ya_estas_en_lista_ICONO.png" alt="negociante"/></h2>
-            <h5 class="center">¿Ya eres integrante?</h5>
 
-            <p class="light">Estás registrado</p>
-          </div>
-        </a>
-      </div>
+      <?php
+        if (!$_SESSION["newsession"]){
+          echo "
+            <div class=\"col s12 m4\">
+          <a class=\"black-text\" href=\"login.php\">
+            <div class=\"icon-block\">
+              <h2 class=\"center light-blue-text\"><img width=\"150px\" height=\"150px\" src=\"images/coma_ya_estas_en_lista_ICONO.png\" alt=\"negociante\"/></h2>
+              <h5 class=\"center\">¿Ya eres integrante?</h5>
+
+              <p class=\"light\">Estás registrado</p>
+            </div>
+          </a>
+        </div>";
+        }
+
+      ?>
+
+
     </div>
   </div>
 
