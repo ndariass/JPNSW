@@ -24,13 +24,14 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
+<div class="navbar-fixed">
+<nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="video.php">Video</a></li>
+            <li><a href="inicio.php">Inicio</a></li>
+
             <li><a href="que_buscas.php">Compa</a></li>
-            <li><a href="que_buscas.php">Familia de compas</a></li>
+            <li><a href="que_buscas_familia.php">Familia de compas</a></li>
             <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
             <?php
@@ -46,10 +47,10 @@ if( isset($_GET['logout'])){
         </ul>
 
         <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="video.php">Video</a></li>
+            <li><a href="inicio.php">Inicio</a></li>
+
             <li><a href="que_buscas.php">Compa</a></li>
-            <li><a href="que_buscas.php">Familia de compas</a></li>
+            <li><a href="que_buscas_familia.php">Familia de compas</a></li>
             <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
             <?php
@@ -66,16 +67,17 @@ if( isset($_GET['logout'])){
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+</div>
 <div class="section no-pad-bot" id="index-banner" style="min-height: 20vh;">
     <div class="container ">
-        <h4 class="header center orange-text ">Encuentra tu banco más cercano</h4>
+        <h4 class="header center">Encuentra tu banco más cercano</h4>
     </div>
 </div>
 
-<h5 class="header center orange-text">¿Qué deseas ver?</h5>
+<h5 class="header center" style="margin-bottom: 20px !important;">¿Qué deseas ver?</h5>
   <div class="row center">
-        <a href="#" onclick="$('#map_container').show();initMap();" class="btn-large waves-effect waves-light orange">Banco</a>
-        <a href="#" onclick="$('#map_container').show();initMap();" class="btn-large waves-effect waves-light orange">Cooperativa</a>
+        <a href="#" onclick="$('#map_container').show();initMap();" class="btn-large waves-effect waves-light green-button btn-big-text">Banco</a>
+        <a href="#" onclick="$('#map_container').show();initMap();" class="btn-large waves-effect waves-light green-button btn-big-text">Cooperativa</a>
       </div>
 
 

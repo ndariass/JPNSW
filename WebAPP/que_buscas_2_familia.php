@@ -7,9 +7,9 @@ if( isset($_GET['logout'])){
 }
 
 $savings = '';
-$advice = '';
-$whereTo = '';
-$other = '';
+$low_cost = '';
+$car = '';
+$house = '';
 
 if( isset($_GET['logout'])){
   $_SESSION["newsession"] = NULL;
@@ -19,26 +19,26 @@ if( isset($_GET['logout'])){
 
 function set_unregistered(){
   global $savings;
-  global $advice;
-  global $whereTo;
-  global $other;
+  global $low_cost;
+  global $car;
+  global $house;
 
-  $savings = "images/platica.png";
-  $advice = "images/compa_aconseje.png";
-  $whereTo = "images/donde_vueltas.png";
-  $other = "images/otras_vueltas.png";
+  $savings = "images/ahorro_familia.png";
+  $low_cost = "images/poco_monto_familia.png";
+  $car = "images/carro_familia.png";
+  $house = "images/casa_familia.png";
 }
 
 function set_registered(){
   global $savings;
-  global $advice;
-  global $whereTo;
-  global $other;
+  global $low_cost;
+  global $car;
+  global $house;
 
-  $savings = "images/platica_registrado.png";
-  $advice = "images/consejo_registrado.png";
-  $whereTo = "images/vueltas_registrado.png";
-  $other = "images/otro_registrado.png";
+  $savings = "images/ahorro_registrado.png";
+  $low_cost = "images/poco_monto_registrado.png";
+  $car = "images/carro_registrado.png";
+  $house = "images/casa_registrado.png";
 }
 
 if ($_SESSION["newsession"]){
@@ -48,7 +48,6 @@ if ($_SESSION["newsession"]){
 else {
   set_unregistered();
 }
-
 
 ?>
 
@@ -117,51 +116,51 @@ else {
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h4 class="header center">¿Qué buscas compa?</h4>
+      <h4 class="header center">¿Quieres ahorrar o pedir prestado?</h4>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col s12 m4">
-      <a class="black-text" href="que_buscas_2.php">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $savings; ?>" alt="platica"/></h2>
-          <h5 class="center">Platica</h5>
+        <a class="black-text" href="preguntas.php">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $savings; ?>" alt="platica"/></h2>
+            <h5 class="center">Ahorro</h5>
 
-          <p class="light">Necesitas dinero para un proyecto propio.</p>
-        </div>
+            <p class="light">Guion ahorro</p>
+          </div>
         </a>
       </div>
 
       <div class="col s12 m4">
-      <a class="black-text" href="foro.php">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $advice; ?>" alt="platica"/></h2>
-          <h5 class="center">Un compa que me aconseje</h5>
+        <a class="black-text" href="registro.php">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $low_cost; ?>" alt="platica"/></h2>
+            <h5 class="center">Crédito de poco monto (televisión, educación, mercado)</h5>
 
-          <p class="light">Quiero un compa que me ayude o me enseñe como hacer las cosas</p>
-        </div>
+            <p class="light">Guión poco monto</p>
+          </div>
         </a>
       </div>
 
       <div class="col s12 m4">
-      <a class="black-text" href="map.php">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $whereTo; ?>" alt="donde vueltas"/></h2>
-          <h5 class="center">Donde hacer las vueltas</h5>
+        <a class="black-text" href="registro.php">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $car; ?>" alt="donde vueltas"/></h2>
+            <h5 class="center">Pa'l carrito</h5>
 
-          <p class="light">Quieres ubicar un servicio cerca</p>
-        </div>
+            <p class="light">Guión carro</p>
+          </div>
         </a>
       </div>
       <div class="col s12 m4">
-      <a class="black-text" href="otras_vueltas.php">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $other; ?>" alt="otras vueltas"/></h2>
-          <h5 class="center">Otras vueltas</h5>
+        <a class="black-text" href="preguntas_casita.php">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $house; ?>" alt="otras vueltas"/></h2>
+            <h5 class="center">Pa' la casita</h5>
 
-          <p class="light">Seguros y financiación de proyectos alternativos</p>
-        </div>
+            <p class="light">Guión</p>
+          </div>
         </a>
       </div>
     </div>

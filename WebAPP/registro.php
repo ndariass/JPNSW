@@ -24,13 +24,14 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
+<div class="navbar-fixed">
+<nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+
         <li><a href="que_buscas.php">Compa</a></li>
-        <li><a href="que_buscas.php">Familia de compas</a></li>
+        <li><a href="que_buscas_familia.php">Familia de compas</a></li>
         <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
         <?php
@@ -46,10 +47,10 @@ if( isset($_GET['logout'])){
       </ul>
 
       <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+
         <li><a href="que_buscas.php">Compa</a></li>
-        <li><a href="que_buscas.php">Familia de compas</a></li>
+        <li><a href="que_buscas_familia.php">Familia de compas</a></li>
         <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
         <?php
@@ -66,17 +67,18 @@ if( isset($_GET['logout'])){
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-  <h5 class="header center orange-text">¿Ya estas registrado?</h5>
+  </div>
+  <h5 class="header center">¿Ya estas registrado?</h5>
   <div class="row center">
-        <a href="login.php" id="download-button" class="btn-large waves-effect waves-light orange">Si</a>
-        <a href="#" onclick="$('#form').show();" id="download-button" class="btn-large waves-effect waves-light orange">No</a>
+        <a href="login.php" id="download-button" class="btn-large waves-effect waves-light green-button">Si</a>
+        <a href="#" onclick="$('#form').show();" id="download-button" class="btn-large waves-effect waves-light green-button">No</a>
       </div>
   <div id="form" style="display: none;">
   <div class="section no-pad-bot" id="index-banner" >
     <div class="container">
       <br><br>
-      <h4 class="header center orange-text">!Compadrito!</h1>
-      <h5 class="header center orange-text">Te voy a molestar con unas pregunticas:</h5>
+      <h4 class="header center">!Compadrito!</h1>
+      <h5 class="header center" style="margin-bottom: 20px">Te voy a molestar con unas pregunticas:</h5>
     </div>
   </div>
   <div class="container">
@@ -101,9 +103,18 @@ if( isset($_GET['logout'])){
         <label>Tu email:</label>
         <input type="text" value=""></input>
       </div>
+      <div class="col s12 m4">
+        <label>Ingresa tu foto y preséntate ante la comunidad (las personas que incluyen foto son percibidas como más confiables y obtienen respuestas más rápido)
+        </label>
+      </div>
+
+      <div class="col s12 m4">
+        <img width="150px" height="150px" src="images/no_avatar.jpg"/>
+        <input type="file"></input>
+      </div>
     </div>
      <div class="row">
-     <a href="index.php" onclick="Android.showToast('Usuario registrado');" class="btn-large waves-effect waves-light orange">Enviar</a>
+     <a href="inicio.php" onclick="Android.showToast('Usuario registrado');" class="btn-large waves-effect waves-light green-button btn-big-text">Siguente</a>
      </div>
   </div>
   

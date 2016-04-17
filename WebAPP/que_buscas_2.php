@@ -5,6 +5,50 @@ if( isset($_GET['logout'])){
   $_SESSION["newsession"] = NULL;
   session_unset();
 }
+
+$savings = '';
+$low_cost = '';
+$car = '';
+$house = '';
+
+if( isset($_GET['logout'])){
+  $_SESSION["newsession"] = NULL;
+  session_unset();
+  set_unregistered();
+}
+
+function set_unregistered(){
+  global $savings;
+  global $low_cost;
+  global $car;
+  global $house;
+
+  $savings = "images/ahorro_individual.png";
+  $low_cost = "images/poco_monto_individual.png";
+  $car = "images/carro_individual.png";
+  $house = "images/casa_individual.png";
+}
+
+function set_registered(){
+  global $savings;
+  global $low_cost;
+  global $car;
+  global $house;
+
+  $savings = "images/ahorro_registrado.png";
+  $low_cost = "images/poco_monto_registrado.png";
+  $car = "images/carro_registrado.png";
+  $house = "images/casa_registrado.png";
+}
+
+if ($_SESSION["newsession"]){
+  set_registered();
+}
+
+else {
+  set_unregistered();
+}
+
 ?>
 
 <!DOCTYPE html>
@@ -24,13 +68,14 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
+<div class="navbar-fixed">
+<nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
-        <li><a href="que_buscas.html">Compa</a></li>
-        <li><a href="que_buscas.html">Familia de compas</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+
+        <li><a href="que_buscas.php">Compa</a></li>
+        <li><a href="que_buscas_familia.php">Familia de compas</a></li>
         <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
         <?php
@@ -46,10 +91,10 @@ if( isset($_GET['logout'])){
       </ul>
 
       <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
-        <li><a href="que_buscas.html">Compa</a></li>
-        <li><a href="que_buscas.html">Familia de compas</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+
+        <li><a href="que_buscas.php">Compa</a></li>
+        <li><a href="que_buscas_familia.php">Familia de compas</a></li>
         <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
         <?php
@@ -67,54 +112,54 @@ if( isset($_GET['logout'])){
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+  </div>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h4 class="header center orange-text">¿Quieres ahorrar o pedir prestado?</h4>
+      <h4 class="header center">¿Quieres ahorrar o pedir prestado?</h4>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col s12 m4">
-        <a class="black-text" href="preguntas.php">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Ahorro</span>
-            </div>
+        <a class="black-text" href="que_buscas_2.php">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $savings; ?>" alt="platica"/></h2>
+            <h5 class="center">Ahorro</h5>
 
-          </div>
-        </a>
-
-      </div>
-
-      <div class="col s12 m4">
-        <a class="black-text" href="registro.php">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Crédito de poco monto (televisión, educación, mercado)</span>
-            </div>
-
+            <p class="light">Guion ahorro</p>
           </div>
         </a>
       </div>
 
       <div class="col s12 m4">
         <a class="black-text" href="registro.php">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Pa'l carrito</span>
-            </div>
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $low_cost; ?>" alt="platica"/></h2>
+            <h5 class="center">Crédito de poco monto (televisión, educación, mercado)</h5>
 
+            <p class="light">Guión poco monto</p>
+          </div>
+        </a>
+      </div>
+
+      <div class="col s12 m4">
+        <a class="black-text" href="registro.php">
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $car; ?>" alt="donde vueltas"/></h2>
+            <h5 class="center">Pa'l carrito</h5>
+
+            <p class="light">Guión carro</p>
           </div>
         </a>
       </div>
       <div class="col s12 m4">
         <a class="black-text" href="preguntas_casita.php">
-          <div class="card blue-grey darken-1">
-            <div class="card-content white-text">
-              <span class="card-title">Pa' la casita</span>
-            </div>
+          <div class="icon-block">
+            <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $house; ?>" alt="otras vueltas"/></h2>
+            <h5 class="center">Pa' la casita</h5>
 
+            <p class="light">Guión</p>
           </div>
         </a>
       </div>

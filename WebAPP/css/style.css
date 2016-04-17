@@ -8,3 +8,35 @@
 .side-nav a {
     font-size: 1.2rem !important;
 }
+
+h4 .header {
+    color: #424242;
+}
+
+h5 {
+    color: #616161;
+}
+
+.green-button{
+    background-color: #388e3c !important;
+}
+
+.blue-button{
+    background-color: #00838f !important;
+}
+
+.brown-button{
+    background-color: #3e2723 ! important;
+}
+
+.btn-big-text {
+    font-size: 1.3em;
+}
+
+p {
+    font-size: 1.4rem !important;
+}
+
+label {
+    font-size: 1.3rem;
+}

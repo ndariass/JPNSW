@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity implements GoogleApiClient.C
 
         myWebView = (WebView) findViewById(R.id.activity_main_webview);
         //myWebView.loadUrl("http://10.0.2.2:8080/");
-        myWebView.loadUrl("http://172.16.41.75:8080/");
+        myWebView.loadUrl("http://192.168.0.16/JPNSW/WebAPP/");
         //myWebView.loadUrl("http://192.168.0.16/JPNSW/WebAPP/");
         //myWebView.loadUrl("http://test.sites.dipaola.com.co/jpnsw/");
 

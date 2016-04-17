@@ -24,13 +24,13 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
+<nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="video.php">Video</a></li>
+            <li><a href="inicio.php">Inicio</a></li>
+
             <li><a href="que_buscas.php">Compa</a></li>
-            <li><a href="que_buscas.php">Familia de compas</a></li>
+            <li><a href="que_buscas_familia.php">Familia de compas</a></li>
             <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
             <?php
@@ -46,10 +46,10 @@ if( isset($_GET['logout'])){
         </ul>
 
         <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="video.php">Video</a></li>
+            <li><a href="inicio.php">Inicio</a></li>
+
             <li><a href="que_buscas.php">Compa</a></li>
-            <li><a href="que_buscas.php">Familia de compas</a></li>
+            <li><a href="que_buscas_familia.php">Familia de compas</a></li>
             <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
             <?php
@@ -70,7 +70,7 @@ if( isset($_GET['logout'])){
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <br><br>
-        <h4 class="header center orange-text">Preguntas</h4>
+        <h4 class="header center">Preguntas</h4>
     </div>
 </div>
 <div class="container">
@@ -210,7 +210,7 @@ if( isset($_GET['logout'])){
     <div class="row">
         <div class="col s4"> </div>
         <div class="col s4">
-            <button class="btn waves-effect waves-light" type="submit" onclick="window.open('resultado_preguntas.html', '_self')" name="action">Enviar
+            <button class="btn waves-effect waves-light green-button btn-large btn-big-text" type="submit" onclick="window.open('resultado_preguntas.php', '_self')" name="action">Siguente
                 <i class="material-icons right">send</i>
             </button>
         </div>

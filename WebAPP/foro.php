@@ -56,13 +56,14 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
+<div class="navbar-fixed">
+<nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+
         <li><a href="que_buscas.php">Compa</a></li>
-        <li><a href="que_buscas.php">Familia de compas</a></li>
+        <li><a href="que_buscas_familia.php">Familia de compas</a></li>
         <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
         <?php
@@ -78,10 +79,10 @@ if( isset($_GET['logout'])){
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
+        <li><a href="inicio.php">Inicio</a></li>
+
         <li><a href="que_buscas.php">Compa</a></li>
-        <li><a href="que_buscas.php">Familia de compas</a></li>
+        <li><a href="que_buscas_familia.php">Familia de compas</a></li>
         <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
         <?php
@@ -98,26 +99,19 @@ if( isset($_GET['logout'])){
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
-
+</div>
   <div class="container">
-    <div class="row">
 
-      <div class="col s12 m4">
-        <h4 class="" lass="center orange-text">Sube tu foto compadre!</h4>
-        <img width="150px" height="150px" src="images/no_avatar.jpg"/>
-        <input type="file"></input>
-      </div>
-    </div>
 
     <div class="row">
       <div class="col s12 m4">
-       <a href="#" onclick="$('#pregunta').show();$('#preguntas').hide();" class="btn-large waves-effect waves-light orange">Comienza con tus preguntas</a>
+       <a href="#" onclick="$('#pregunta').show();$('#preguntas').hide();" class="btn-large waves-effect waves-light green-button btn-big-text">Comienza con tus preguntas</a>
 
      </div>
    </div>
    <div class="row">
     <div class="col s12 m4">
-     <a href="#" onclick="$('#preguntas').show();$('#pregunta').hide();" class="btn-large waves-effect waves-light orange">Revisa preguntas de otros compadres</a>
+     <a href="#" onclick="$('#preguntas').show();$('#pregunta').hide();" class="btn-large waves-effect waves-light green-button btn-big-text">Revisa preguntas de otros compadres</a>
    </div>
 
    <div class="col s12 m4">
@@ -130,7 +124,7 @@ if( isset($_GET['logout'])){
 <div id="pregunta" class="row" style="display: none;">
   <div class="col s12 m4">
     <textarea placeholder="!Cuentanos tu inquietud compadre!"></textarea>
-    <a href="#" onclick="$('#pregunta').hide();$('#pregunta_enviada').show();" class="btn-large waves-effect waves-light orange">Enviar</a>
+    <a href="#" onclick="$('#pregunta').hide();$('#pregunta_enviada').show();" class="btn-large waves-effect waves-light green-button btn-big-text">Siguente</a>
   </div>
 </div>
 

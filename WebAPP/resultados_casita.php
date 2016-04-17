@@ -24,13 +24,14 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
+<div class="navbar-fixed">
+<nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="video.php">Video</a></li>
+            <li><a href="inicio.php">Inicio</a></li>
+
             <li><a href="que_buscas.php">Compa</a></li>
-            <li><a href="que_buscas.php">Familia de compas</a></li>
+            <li><a href="que_buscas_familia.php">Familia de compas</a></li>
             <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
             <?php
@@ -46,10 +47,10 @@ if( isset($_GET['logout'])){
         </ul>
 
         <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
-            <li><a href="index.php">Inicio</a></li>
-            <li><a href="video.php">Video</a></li>
+            <li><a href="inicio.php">Inicio</a></li>
+
             <li><a href="que_buscas.php">Compa</a></li>
-            <li><a href="que_buscas.php">Familia de compas</a></li>
+            <li><a href="que_buscas_familia.php">Familia de compas</a></li>
             <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
             <?php
@@ -66,10 +67,11 @@ if( isset($_GET['logout'])){
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
 </nav>
+    </div>
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <br><br>
-        <h4 class="header center orange-text">Opciones</h4>
+        <h4 class="header center">Estos son los productos que más se ajustan a tu perfil</h4>
     </div>
 </div>
 <div class="container">
@@ -91,7 +93,7 @@ if( isset($_GET['logout'])){
                     <h2 class="center light-blue-text"><img src="images/credito_2.png" alt="platica"/></h2>
                     <h5 class="center">Mujer 5</h5>
 
-                    <p class="light">Actuar tiene un producto para mujeres como tu. Te educan financieramente, te asesoran y acompañan. También podrás pagar como puedas, semanal, quincenal, mensual o incluso en un solo pago</p>
+                    <p class="light">Actuar tiene un producto para mujeres. Te educan financieramente, te asesoran y acompañan. También podrás pagar como puedas, semanal, quincenal, mensual o incluso en un solo pago</p>
                 </div>
             </a>
         </div>

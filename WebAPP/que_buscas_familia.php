@@ -23,10 +23,10 @@ function set_unregistered(){
   global $whereTo;
   global $other;
 
-  $savings = "images/platica.png";
-  $advice = "images/compa_aconseje.png";
-  $whereTo = "images/donde_vueltas.png";
-  $other = "images/otras_vueltas.png";
+  $savings = "images/platica_familia.png";
+  $advice = "images/consejo_familia.png";
+  $whereTo = "images/vueltas_familia.png";
+  $other = "images/otro_familia.png";
 }
 
 function set_registered(){
@@ -123,7 +123,7 @@ else {
   <div class="container">
     <div class="row">
       <div class="col s12 m4">
-      <a class="black-text" href="que_buscas_2.php">
+      <a class="black-text" href="que_buscas_2_familia.php">
         <div class="icon-block">
           <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $savings; ?>" alt="platica"/></h2>
           <h5 class="center">Platica</h5>

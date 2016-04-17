@@ -24,52 +24,54 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
-<nav class="light-blue lighten-1" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
-      <ul class="right hide-on-med-and-down">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
-        <li><a href="que_buscas.php">Compa</a></li>
-        <li><a href="que_buscas.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+<div class="navbar-fixed">
+  <nav class="cyan darken-4" role="navigation">
+      <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="inicio.php">Inicio</a></li>
 
-        <?php
-        if ($_SESSION["newsession"]){
-          echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
-        }
+          <li><a href="que_buscas.php">Compa</a></li>
+          <li><a href="que_buscas_familia.php">Familia de compas</a></li>
+          <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
-        else {
-          echo "<li><a href=\"login.php\">¿Ya eres integrante?</a></li>";
-        }
-        ?>
+          <?php
+          if ($_SESSION["newsession"]){
+            echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
+          }
 
-      </ul>
+          else {
+            echo "<li><a href=\"login.php\">¿Ya eres integrante?</a></li>";
+          }
+          ?>
 
-      <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
-        <li><a href="index.php">Inicio</a></li>
-        <li><a href="video.php">Video</a></li>
-        <li><a href="que_buscas.php">Compa</a></li>
-        <li><a href="que_buscas.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        </ul>
 
-        <?php
-        if ($_SESSION["newsession"]){
-          echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
-        }
+        <ul id="nav-mobile" class="side-nav" style="font-size: 40pt !important;">
+          <li><a href="inicio.php">Inicio</a></li>
 
-        else {
-          echo "<li><a href=\"login.php\">¿Ya eres integrante?</a></li>";
-        }
-        ?>
+          <li><a href="que_buscas.php">Compa</a></li>
+          <li><a href="que_buscas_familia.php">Familia de compas</a></li>
+          <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
 
-      </ul>
-      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
-    </div>
-  </nav>
+          <?php
+          if ($_SESSION["newsession"]){
+            echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
+          }
+
+          else {
+            echo "<li><a href=\"login.php\">¿Ya eres integrante?</a></li>";
+          }
+          ?>
+
+        </ul>
+        <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h4 class="header center orange-text">¿Cuál seguro compadre?</h4>
+      <h4 class="header center">¿Cuál seguro compadre?</h4>
     </div>
   </div>
   <div class="container">
@@ -106,13 +108,9 @@ if( isset($_GET['logout'])){
         </div>
         </a>
       </div>
-      
+
     </div>
   </div>
-
-  
-
-  
 
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
