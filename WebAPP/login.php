@@ -1,5 +1,11 @@
 <?php
 session_start();
+
+if( isset($_GET['logout'])){
+    $_SESSION["newsession"] = NULL;
+    session_unset();
+}
+
 ?>
 <?php
 
@@ -60,7 +66,7 @@ if(isset($_POST['actionSubmit'])) {
                 <input type="text" value="" name="id"></input>
             </div>
 
-            <button class="btn waves-effect waves-light" type="submit" name="actionSubmit">Submit
+            <button class="btn waves-effect waves-light" type="submit" name="actionSubmit">Ingresar
                 <i class="material-icons right">send</i>
             </button>
         </form>

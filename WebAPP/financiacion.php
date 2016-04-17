@@ -1,3 +1,12 @@
+<?php
+session_start();
+
+if( isset($_GET['logout'])){
+  $_SESSION["newsession"] = NULL;
+  session_unset();
+}
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -19,10 +28,40 @@
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
       <ul class="right hide-on-med-and-down">
         <li><a href="index.php">Inicio</a></li>
+        <li><a href="video.php">Video</a></li>
+        <li><a href="que_buscas.php">Compa</a></li>
+        <li><a href="que_buscas.php">Familia de compas</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+
+        <?php
+        if ($_SESSION["newsession"]){
+          echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
+        }
+
+        else {
+          echo "<li><a href=\"login.php\">¿Ya eres integrante?</a></li>";
+        }
+        ?>
+
       </ul>
 
       <ul id="nav-mobile" class="side-nav">
         <li><a href="index.php">Inicio</a></li>
+        <li><a href="video.php">Video</a></li>
+        <li><a href="que_buscas.php">Compa</a></li>
+        <li><a href="que_buscas.php">Familia de compas</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+
+        <?php
+        if ($_SESSION["newsession"]){
+          echo "<li><a href=\"?logout\">Cerrar sesión</a></li>";
+        }
+
+        else {
+          echo "<li><a href=\"login.php\">¿Ya eres integrante?</a></li>";
+        }
+        ?>
+
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -30,53 +69,44 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h4 class="header center orange-text">¿Qué buscas compadre negociante?</h4>
+      <h4 class="header center orange-text">¿Cuál proyecto buscas financiar?</h4>
     </div>
   </div>
   <div class="container">
     <div class="row">
       <div class="col s12 m4">
-      <a class="black-text" href="preguntas_negociante.html">
+      <a class="black-text" href="resultado_artistico.php">
         <div class="icon-block">
           <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/platica.png" alt="platica"/></h2>
-          <h5 class="center">Platica</h5>
+          <h5 class="center">Artistico</h5>
 
-          <p class="light">Necesitas dinero para un proyecto propio.</p>
+          <p class="light"></p>
         </div>
         </a>
       </div>
 
       <div class="col s12 m4">
-      <a class="black-text" href="foro.html">
+      <a class="black-text" href="#">
         <div class="icon-block">
           <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/compa_aconseje.png" alt="platica"/></h2>
-          <h5 class="center">Un compa que me aconseje</h5>
+          <h5 class="center">Artesanias</h5>
 
-          <p class="light">Quiero un compa que me ayude o me enseñe como hacer las cosas</p>
+          <p class="light"></p>
         </div>
         </a>
       </div>
 
       <div class="col s12 m4">
-      <a class="black-text" href="map.html">
+      <a class="black-text" href="#">
         <div class="icon-block">
           <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/donde_vueltas.png" alt="donde vueltas"/></h2>
-          <h5 class="center">Donde hacer las vueltas</h5>
+          <h5 class="center">Cine y video</h5>
 
-          <p class="light">Quieres ubicar un servicio cerca</p>
+          <p class="light"></p>
         </div>
         </a>
       </div>
-      <div class="col s12 m4">
-      <a class="black-text" href="#!">
-        <div class="icon-block">
-          <h2 class="center light-blue-text"><img width="150px" height="150px" src="images/otras_vueltas.png" alt="otras vueltas"/></h2>
-          <h5 class="center">Otras vueltas</h5>
-
-          <p class="light">Una vuelta diferente</p>
-        </div>
-        </a>
-      </div>
+      
     </div>
   </div>
 

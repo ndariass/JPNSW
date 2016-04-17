@@ -4,3 +4,7 @@
 .icon-block .material-icons {
 	font-size: inherit;
 }
+
+.side-nav a {
+    font-size: 1.2rem !important;
+}
