@@ -100,41 +100,57 @@ if( isset($_GET['logout'])){
     </div>
   </nav>
 </div>
+<div class="section no-pad-bot" id="index-banner">
+    <div class="container">
+      <h4 class="header center">¿Cómo deseas comenzar?</h4>
+    </div>
+  </div>
   <div class="container">
 
 
     <div class="row">
-      <div class="col s12 m4">
-       <a href="#" onclick="$('#pregunta').show();$('#preguntas').hide();" class="btn-large waves-effect waves-light green-button btn-big-text">Comienza con tus preguntas</a>
+      <div class="col s12 m6">
+       <a href="#"  style="text-align: center !important; width: 350px;" onclick="$('#pregunta').show();$('#preguntas').hide();$('#pregunta_enviada').hide();$('#pregunta_existente').hide();" class="btn green-button">¿Cuál es tu pregunta?</a>
 
      </div>
+     </div>
+       <div class="row">
+      <div class="col s12 m6">
+     <a href="#" style="text-align: center !important; width: 350px; opacity: 0.6;" onclick="$('#preguntas').show();$('#pregunta').hide();$('#pregunta_enviada').hide();" class="btn green-button">Revisa preguntas de otros compadres</a>
    </div>
-   <div class="row">
-    <div class="col s12 m4">
-     <a href="#" onclick="$('#preguntas').show();$('#pregunta').hide();" class="btn-large waves-effect waves-light green-button btn-big-text">Revisa preguntas de otros compadres</a>
    </div>
 
-   <div class="col s12 m4">
-
-   </div>
- </div>
 </div>
 
 
 <div id="pregunta" class="row" style="display: none;">
   <div class="col s12 m4">
     <textarea placeholder="!Cuentanos tu inquietud compadre!"></textarea>
-    <a href="#" onclick="$('#pregunta').hide();$('#pregunta_enviada').show();" class="btn-large waves-effect waves-light green-button btn-big-text">Siguente</a>
+    <a href="#" onclick="$('#pregunta').hide();$('#pregunta_existente').show();$('#preguntas').show();" class="btn green-button">Siguente</a>
   </div>
 </div>
 
 <div id="pregunta_enviada" class="row" style="display: none;">
   <div class="col s12 m4">
-      <h3>!Gracias por enviar tu pregunta!</h3>
+      <h5>!Gracias por enviar tu pregunta!</h5>
   </div>
 </div>
 
+<div id="pregunta_existente" class="row" style="display: none;">
+  <div class="col s12 m4">
+      Puede que ya tengamos una respuesta a tu pregunta, si no es así:
+  </div>
+  <div class="col s12 m4">
+    <?php
+      if (!$_SESSION["newsession"]){
+        echo "<a href=\"registro.php\" class=\"btn green-button\">Enviar</a>";
+      }else{
+      echo "<a href=\"#\" onclick=\"$('#pregunta_existente').hide();$('#pregunta_enviada').show();\" class=\"btn green-button\">Enviar</a>";
+      }
+      ?>
 
+  </div>
+</div>
 
 <div id="preguntas" class="row lista" style="display: none;">
   <ul>
