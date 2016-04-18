@@ -8,7 +8,7 @@ if( isset($_GET['logout'])){
 ?>
 
 <!DOCTYPE html>
-<html>
+<html xmlns:https="http://www.w3.org/1999/xhtml" xmlns:http="http://www.w3.org/1999/xhtml">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
@@ -32,7 +32,7 @@ if( isset($_GET['logout'])){
 
         <li><a href="que_buscas.php">Compa</a></li>
         <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
         <?php
         if ($_SESSION["newsession"]){
@@ -51,7 +51,7 @@ if( isset($_GET['logout'])){
 
         <li><a href="que_buscas.php">Compa</a></li>
         <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
         <?php
         if ($_SESSION["newsession"]){
@@ -114,7 +114,7 @@ if( isset($_GET['logout'])){
       </div>
     </div>
      <div class="row">
-     <a href="inicio.php" onclick="Android.showToast('Usuario registrado');" class="btn-large waves-effect waves-light green-button btn-big-text">Siguente</a>
+     <div onclick="window.open('https://www.bancodebogota.com', '_blank')" class="btn-large waves-effect waves-light green-button btn-big-text">Siguente</div>
      </div>
   </div>
   

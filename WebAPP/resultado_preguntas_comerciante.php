@@ -32,7 +32,7 @@ if( isset($_GET['logout'])){
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
             if ($_SESSION["newsession"]){
@@ -51,7 +51,7 @@ if( isset($_GET['logout'])){
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
             if ($_SESSION["newsession"]){
@@ -87,9 +87,9 @@ if( isset($_GET['logout'])){
                         Requisitos:
  
 Tener mínimo un año trabajando.  
-No tener más de 65 años
+No tener más de 65 años.
 Debes comprar un seguro por si no llegas a poder pagar.
-No estar reportado en data credito.
+No estar reportado en data crédito.
 </p>
                 </div>
             </a>
@@ -102,7 +102,7 @@ No estar reportado en data credito.
                     <h5 class="center">Mujer 5
 </h5>
 
-                    <p class="light">Esta enfocado en las mujeres, te educaran financieramente, te asesoraran y acompañaran, también podras pagar como puedas, semanal, quincenal, mensual o en un solo pago
+                    <p class="light">Está enfocado en las mujeres, te educarán financieramente, te asesorarán y acompañarán, también podrás pagar como puedas: semanal, quincenal, mensual o en un solo pago.
 </p>
                 </div>
             </a>

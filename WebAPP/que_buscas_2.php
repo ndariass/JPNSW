@@ -76,7 +76,7 @@ else {
 
         <li><a href="que_buscas.php">Compa</a></li>
         <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
         <?php
         if ($_SESSION["newsession"]){
@@ -95,7 +95,7 @@ else {
 
         <li><a href="que_buscas.php">Compa</a></li>
         <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
         <?php
         if ($_SESSION["newsession"]){
@@ -122,7 +122,7 @@ else {
   <div class="container">
     <div class="row">
       <div class="col s12 m4">
-        <a class="black-text" href="que_buscas_2.php">
+        <a class="black-text" href="preguntas.php">
           <div class="icon-block">
             <h2 class="center light-blue-text"><img width="150px" height="150px" src="<?php echo $savings; ?>" alt="platica"/></h2>
             <h5 class="center">Ahorro</h5>

@@ -24,6 +24,7 @@ if( isset($_GET['logout'])){
 </head>
 
 <body>
+<div class="navbar-fixed">
 <nav class="cyan darken-4" role="navigation">
     <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo"></a>
         <ul class="right hide-on-med-and-down">
@@ -31,7 +32,7 @@ if( isset($_GET['logout'])){
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
         if ($_SESSION["newsession"]){
@@ -50,7 +51,7 @@ if( isset($_GET['logout'])){
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
         if ($_SESSION["newsession"]){
@@ -67,6 +68,7 @@ if( isset($_GET['logout'])){
         <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
   </nav>
+    </div>
 <div class="section no-pad-bot" id="index-banner">
     <div class="container">
         <br><br>
@@ -75,26 +77,6 @@ if( isset($_GET['logout'])){
 </div>
 <div class="container">
     <div class="row">
-        <div class="col s12 m4">
-
-                <div class="icon-block">
-                    <h5 class="center">¿Quieres pagar cuota de manejo?</h5>
-
-                    <form action="#">
-                        <p>
-                            <input name="group1" type="radio" onclick="setSavingsCosts(1)" id="yes" />
-                            <label for="yes">Sí</label>
-                        </p>
-                        <p>
-                            <input name="group1" type="radio" onclick="setSavingsCosts(0)" id="no" />
-                            <label for="no">No</label>
-                        </p>
-
-                    </form>
-
-                </div>
-
-        </div>
 
         <div class="col s12 m4">
                 <div class="icon-block">
@@ -203,6 +185,27 @@ if( isset($_GET['logout'])){
 
                     </form>
                 </div>
+        </div>
+
+        <div class="col s12 m4">
+
+            <div class="icon-block">
+                <h5 class="center">¿Estarías dispuesto a pagar cuota de manejo?</h5>
+
+                <form action="#">
+                    <p>
+                        <input name="group1" type="radio" onclick="setSavingsCosts(1)" id="yes" />
+                        <label for="yes">Sí</label>
+                    </p>
+                    <p>
+                        <input name="group1" type="radio" onclick="setSavingsCosts(0)" id="no" />
+                        <label for="no">No</label>
+                    </p>
+
+                </form>
+
+            </div>
+
         </div>
 
     </div>

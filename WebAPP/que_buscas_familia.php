@@ -77,7 +77,7 @@ else {
 
         <li><a href="que_buscas.php">Compa</a></li>
         <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
         <?php
         if ($_SESSION["newsession"]){
@@ -96,7 +96,7 @@ else {
 
         <li><a href="que_buscas.php">Compa</a></li>
         <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-        <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+        <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
         <?php
         if ($_SESSION["newsession"]){

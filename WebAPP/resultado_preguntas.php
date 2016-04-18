@@ -32,7 +32,7 @@ if( isset($_GET['logout'])){
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
         if ($_SESSION["newsession"]){
@@ -51,7 +51,7 @@ if( isset($_GET['logout'])){
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
         if ($_SESSION["newsession"]){
@@ -84,6 +84,11 @@ if( isset($_GET['logout'])){
 
                     <p class="light"><strong>Cuota de manejo: $6.900</strong> </br>
                         Esta Cuenta te ofrece: Puedes realizar todos los retiros en Cajeros Aval totalmente GRATIS. * Depende de las condiciones escogidas en la apertura de tu cuenta. Disfrutas de las diferentes alianzas. Participas en Promociones Vigentes. Puedes hacer uso de tus productos en los siguientes canales: Internet, Cajeros Automáticos, Agilizador Electrónico, Servilinea, Oficinas.</p>
+
+                    <p>
+                        <strong>Más Información</strong>
+                    </p>
+
                 </div>
             </a>
         </div>
@@ -96,6 +101,11 @@ if( isset($_GET['logout'])){
 
                     <p class="light"><strong>Cuota de manejo $8.000</strong> </br>
                         Es una cuenta de ahorros tradicional a través de la cual usted o su empresa podrá depositar dinero o cheques en el Banco Popular, obtener rendimientos y disponer de tales sumas mediante talonario de ahorros y/o tarjeta débito. La obtención de los rendimientos se hace sobre el saldo mínimo trimestral y se abona al final del período, el depósito inicial para su apertura es de $30.000. </p>
+
+                    <p>
+                        <strong>Más Información</strong>
+                    </p>
+
                 </div>
             </a>
         </div>

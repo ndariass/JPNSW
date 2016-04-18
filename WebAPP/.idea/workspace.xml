@@ -25,88 +25,53 @@
       <file leaf-file-name="resultado_preguntas.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resultado_preguntas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6666665">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="-41.25">
+              <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultado_preguntas_comerciante.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultado_preguntas_comerciante.php">
+      <file leaf-file-name="inicio.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/inicio.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6666665">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="-19.375">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+              <folding>
+                <marker date="1460935843020" expanded="true" signature="3741:3932" placeholder="..." />
+                <marker date="1460935843020" expanded="true" signature="4067:4523" placeholder="..." />
+                <marker date="1460935843020" expanded="true" signature="4121:4508" placeholder="..." />
+                <marker date="1460935843020" expanded="true" signature="4160:4493" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="registro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-15.375">
+              <caret line="116" column="73" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="73" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultado_seguros.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultado_seguros.php">
+      <file leaf-file-name="preguntas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/preguntas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6666665">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state vertical-scroll-proportion="-13.75">
+              <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="resultados_casita.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultados_casita.php">
+      <file leaf-file-name="otras_vueltas.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/otras_vueltas.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6666665">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="seguros.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/seguros.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6666665">
-              <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resultado_artistico.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resultado_artistico.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.6666665">
-              <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="que_buscas_familia.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/que_buscas_familia.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="37.458332">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="que_buscas.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/que_buscas.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="43.375">
-              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="que_buscas_2.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/que_buscas_2.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.48076922">
-              <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -115,8 +80,50 @@
       <file leaf-file-name="que_buscas_2_familia.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/que_buscas_2_familia.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-18.125">
-              <caret line="156" column="56" selection-start-line="156" selection-start-column="56" selection-end-line="156" selection-end-column="56" />
+            <state vertical-scroll-proportion="-57.25">
+              <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/login.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.48076922">
+              <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="financiacion.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/financiacion.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.125">
+              <caret line="33" column="43" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="foro.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foro.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.8076923">
+              <caret line="156" column="56" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-10.125">
+              <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
               <folding />
             </state>
           </provider>
@@ -164,28 +171,28 @@
         <option value="$PROJECT_DIR$/video.html" />
         <option value="$PROJECT_DIR$/video.php" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/financiacion.php" />
         <option value="$PROJECT_DIR$/foro.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/inicio.php" />
-        <option value="$PROJECT_DIR$/login.php" />
         <option value="$PROJECT_DIR$/map.php" />
         <option value="$PROJECT_DIR$/otras_vueltas.php" />
-        <option value="$PROJECT_DIR$/preguntas.php" />
         <option value="$PROJECT_DIR$/preguntas_casita.php" />
         <option value="$PROJECT_DIR$/preguntas_negociante.php" />
         <option value="$PROJECT_DIR$/que_buscas.php" />
+        <option value="$PROJECT_DIR$/que_buscas_2_familia.php" />
         <option value="$PROJECT_DIR$/que_buscas_familia.php" />
         <option value="$PROJECT_DIR$/que_buscas_negociante.php" />
-        <option value="$PROJECT_DIR$/registro.php" />
         <option value="$PROJECT_DIR$/resultado_artistico.php" />
-        <option value="$PROJECT_DIR$/resultado_preguntas.php" />
         <option value="$PROJECT_DIR$/resultado_preguntas_comerciante.php" />
         <option value="$PROJECT_DIR$/resultado_seguros.php" />
         <option value="$PROJECT_DIR$/resultados_casita.php" />
         <option value="$PROJECT_DIR$/seguros.php" />
-        <option value="$PROJECT_DIR$/que_buscas_2_familia.php" />
         <option value="$PROJECT_DIR$/que_buscas_2.php" />
+        <option value="$PROJECT_DIR$/resultado_preguntas.php" />
+        <option value="$PROJECT_DIR$/registro.php" />
+        <option value="$PROJECT_DIR$/preguntas.php" />
+        <option value="$PROJECT_DIR$/login.php" />
       </list>
     </option>
   </component>
@@ -492,10 +499,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
           <folding>
-            <marker date="1460934019492" expanded="true" signature="3743:3934" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4069:4525" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4123:4510" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4162:4495" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="3741:3932" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4067:4523" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4121:4508" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4160:4493" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -536,10 +543,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="82" column="16" selection-start-line="82" selection-start-column="16" selection-end-line="82" selection-end-column="16" />
           <folding>
-            <marker date="1460934019492" expanded="true" signature="3743:3934" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4069:4525" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4123:4510" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4162:4495" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="3741:3932" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4067:4523" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4121:4508" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4160:4493" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -587,10 +594,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="74" column="67" selection-start-line="74" selection-start-column="67" selection-end-line="74" selection-end-column="67" />
           <folding>
-            <marker date="1460934019492" expanded="true" signature="3743:3934" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4069:4525" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4123:4510" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4162:4495" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="3741:3932" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4067:4523" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4121:4508" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4160:4493" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -674,184 +681,186 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/financiacion.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.3333335">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/foro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inicio.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="26" column="4" selection-start-line="26" selection-start-column="4" selection-end-line="26" selection-end-column="4" />
-          <folding>
-            <marker date="1460934019492" expanded="true" signature="3743:3934" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4069:4525" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4123:4510" placeholder="..." />
-            <marker date="1460934019492" expanded="true" signature="4162:4495" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/otras_vueltas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/preguntas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preguntas_casita.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/preguntas_negociante.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/que_buscas_negociante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registro.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultado_artistico.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultado_preguntas.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultado_preguntas_comerciante.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultado_seguros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resultados_casita.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="0" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/seguros.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.6666665">
-          <caret line="27" column="2" selection-start-line="27" selection-start-column="2" selection-end-line="27" selection-end-column="2" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/que_buscas_familia.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="37.458332">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/que_buscas.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="43.375">
-          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/que_buscas_2_familia.php">
+    <entry file="file://$PROJECT_DIR$/que_buscas_familia.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.125">
-          <caret line="156" column="56" selection-start-line="156" selection-start-column="56" selection-end-line="156" selection-end-column="56" />
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="98" column="8" selection-start-line="98" selection-start-column="8" selection-end-line="98" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/que_buscas_negociante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultado_artistico.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultado_preguntas_comerciante.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultado_seguros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultados_casita.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="12" selection-start-line="53" selection-start-column="12" selection-end-line="53" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/seguros.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.3333335">
+          <caret line="53" column="10" selection-start-line="53" selection-start-column="10" selection-end-line="53" selection-end-column="10" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/que_buscas_2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.48076922">
-          <caret line="135" column="44" selection-start-line="135" selection-start-column="44" selection-end-line="135" selection-end-column="44" />
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="124" column="49" selection-start-line="124" selection-start-column="49" selection-end-line="124" selection-end-column="49" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/financiacion.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.125">
+          <caret line="33" column="43" selection-start-line="33" selection-start-column="21" selection-end-line="33" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.125">
+          <caret line="51" column="67" selection-start-line="51" selection-start-column="67" selection-end-line="51" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resultado_preguntas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-41.25">
+          <caret line="106" column="24" selection-start-line="106" selection-start-column="24" selection-end-line="106" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inicio.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.375">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+          <folding>
+            <marker date="1460935843020" expanded="true" signature="3741:3932" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4067:4523" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4121:4508" placeholder="..." />
+            <marker date="1460935843020" expanded="true" signature="4160:4493" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/que_buscas_2_familia.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-57.25">
+          <caret line="127" column="35" selection-start-line="127" selection-start-column="35" selection-end-line="127" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.8076923">
+          <caret line="156" column="56" selection-start-line="156" selection-start-column="16" selection-end-line="156" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/otras_vueltas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/preguntas.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.75">
+          <caret line="70" column="10" selection-start-line="70" selection-start-column="10" selection-end-line="70" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registro.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.375">
+          <caret line="116" column="73" selection-start-line="116" selection-start-column="19" selection-end-line="116" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.48076922">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#ul#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

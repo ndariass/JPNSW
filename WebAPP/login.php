@@ -18,7 +18,10 @@ if(isset($_POST['actionSubmit'])) {
         ($_POST["name"] == "Maria" && $_POST["id"] == 1)
     ) {
         $_SESSION["newsession"]= $_POST["name"];
-        header('Location: inicio.php');
+        //header('Location: inicio.php');
+        echo '<script language="javascript">';
+        echo "window.open('https://www.bancodebogota.com', '_blank')";
+        echo '</script>';
 
     } else {
 
@@ -55,7 +58,7 @@ if(isset($_POST['actionSubmit'])) {
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
             if ($_SESSION["newsession"]){
@@ -74,7 +77,7 @@ if(isset($_POST['actionSubmit'])) {
 
             <li><a href="que_buscas.php">Compa</a></li>
             <li><a href="que_buscas_familia.php">Familia de compas</a></li>
-            <li><a href="que_buscas_negociante.php">Compadre negociantes</a></li>
+            <li><a href="que_buscas_negociante.php">Compadre negociante</a></li>
 
             <?php
             if ($_SESSION["newsession"]){
